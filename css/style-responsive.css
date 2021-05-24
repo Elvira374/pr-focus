@@ -1,0 +1,81 @@
+@media screen and (max-width: 1010px) {
+  .banner-content_title {
+    font-size: 4rem;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-media {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .about-items {
+    flex-direction: column;
+  }
+
+  .about-item {
+    width: 100%;
+  }
+
+  .portfolio-content .row {
+    display: none;
+  }
+
+  .portfolio-mobile {
+    display: block;
+  }
+
+  .partners {
+    padding: 5rem 0;
+  }
+
+  .partners-logos {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .contact-content_row {
+    flex-direction: column;
+  }
+
+  [type=submit] {
+    margin: 0 auto;
+  }
+
+  .banner hr {
+    margin-bottom: 3rem;
+  }
+}
+
+/* iPad (portrait) */
+@media (min-width: 320px) and (max-width: 579px) {
+  .banner-content_title {
+    font-size: 2.8rem;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+}
+@media screen and (max-height: 420px) {
+  .banner-content {
+    top: 10%;
+  }
+  .banner hr {
+    margin-bottom: 3rem;
+  }
+}
