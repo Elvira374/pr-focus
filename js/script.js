@@ -89,23 +89,6 @@ $(".icon").click(function () {
   });
 });
 
-
-$(window).load(function () {
-
-  $(".preloader").delay(1000).fadeOut("slow")
-
-  // Parallax
-  if ($('.parallax-background').length) {
-    $(".parallax-background").parallax();
-  }
-
-  // Parallax
-  if ($('.parallax-background-partners').length) {
-    $(".parallax-background-partners").parallax();
-  }
-
-});
-
 window.onload = function () {
   const prev = document.getElementById('btn-prev'),
     next = document.getElementById('btn-next'),
