@@ -110,12 +110,11 @@ p {
 
 .banner-content hr {
   color: #fff;
-  margin-top: 30px;
   background-color: #fff;
   height: 1px;
   width: 300px;
   border: 0;
-  margin-bottom: 8rem;
+  margin: 3rem auto;
 }
 
 .banner .arrow-down {
@@ -270,7 +269,7 @@ p {
                    ABOUT
 -----------------------------------------*/
 .about-us {
-  padding: 10rem 0;
+  padding: 10rem 0 0;
   text-align: center;
 }
 
